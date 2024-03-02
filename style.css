@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  background: hsl(219, 30%, 18%);
+}
+/* Header */
+
+nav{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.logo {
+  margin-left: 80px;
+}
+.btns-nav{
+  margin-right: 80px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+}
+.move {
+  margin-right: 57px;
+}
+/* firstly section */
+.section-img {
+  margin-top: 75px;
+}
+.section-img .img{
+  display: flex;
+  justify-content: center;
+}
+.img-infos {
+  text-align: center;
+  margin-top: 36px;
+  background: url('./images/bg-curvy-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.tittle{
+  color: #fff;
+  font-size: 40px;
+}
+.img-infos p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 32px;
+}
+.started{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.started button{
+  width: 280px;
+  height: 56px;
+  border-radius: 28px;
+  color: #fff;
+  background: #48bbd2;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.center-cards{
+  display: flex;
+  justify-content: center;
+}
+.cards{
+  margin-top: 158px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "card1 card2" "card3 card4";
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+}
+.card {
+  width: 349px;
+  height: 214px;
+  
+}
+.card h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 16px;
+}
+.card p{
+  font-size: 14px;
+  margin-top: 8px;
+}
+.card1{
+  grid-area: card1;
+}
+.card2{
+  grid-area: card2;
+}
+.card3{
+  grid-area: card3;
+}
+.card4{
+  grid-area: card4;
+}
+.productive {
+  display: flex;
+  justify-content: center;
+  margin-top: 137px;
+}
+.productive img {
+  width: 615px;
+
+}
+.productive-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+.productive-info {
+  text-align: start;
+}
+.productive-info h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.productive-info p{
+  font-size: 16px;
+  color: #fff;
+}
+.productive-info a {
+  margin-top: 24px;
+  color: #62E0D9;
+}
+.illustration {
+  display: flex;
+  justify-content: center;
+  margin-top: 179px;
+}
+.card-illustration {
+  width: 360px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 4px;
+  background: #202A3C;
+  margin: 20px;
+  box-shadow: 3px 3px 10px black;
+}
+.illustration-post img{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.illustration-post{
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+.illustration-post p {
+  font-size: 14px;
+}
+.illustration-post small {
+  font-size: 7px;
+}
+.illustration-post strong {
+  font-size: 10px;
+}
+.access {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.access-content{
+  position: relative;
+  margin-bottom: -5%;
+  
+}
+.access button {
+  border-radius: 24px;
+  color: #fff;
+  background: #48bbd2;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  height: 48px;
+  margin-left: 20px;
+}
+.access h1 {
+  color: #fff;
+  font-size: 32px;
+}
+.access p {
+  font-size: 14px;
+}
+.access-info{
+  background: #1B2330;
+  padding: 42px;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 9px;
+}
+.access input {
+  border-radius: 24px;
+  width: 480px;
+  height: 48px;
+  outline: none;
+  text-align: center;
+  border: none;
+}
+.access-inputs{
+  margin-top: 38px;
+}
+footer{
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #09111e;
+}
+.footer-content {
+  display: flex;
+  gap: 80px;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+.footer-cards-location {
+  display: flex;
+  font-size: 16px;
+  width: 379px;
+  justify-content: start;
+  
+}
+
+.abouts a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 16px;
+}
+.terms a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 16px;
+}
+.social{
+  display: flex;
+  
+  gap: 10px;
+}
+.social img {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (max-width: 1105px) {
+  /* Header */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .btns-nav {
+    margin-top: 20px;
+  }
+  .move {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Firstly section */
+  .section-img {
+    margin-top: 40px;
+  }
+  .tittle {
+    font-size: 32px;
+  }
+  .img-infos p {
+    font-size: 16px;
+  }
+  .started button {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* Cards section */
+  .cards {
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4";
+    gap: 20px;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+  /* Productive section */
+  .productive {
+    margin-top: 100px;
+  }
+  .productive-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .productive img {
+    width: 90%;
+  }
+  .productive-info h1 {
+    font-size: 28px;
+  }
+  .productive-info p {
+    font-size: 14px;
+  }
+
+  /* Illustration section */
+  .illustration {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .card-illustration {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  /* Access section */
+  .access {
+    margin-top: 100px;
+  }
+  .access-content {
+    padding: 20px;
+  }
+  .access h1 {
+    font-size: 24px;
+  }
+  .access p {
+    font-size: 12px;
+  }
+  .access-inputs {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .access input {
+    width: 90%;
+  }
+  .access button {
+    width: 90%;
+  }
+
+  /* Footer */
+  footer {
+    padding: 50px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .logo-footer {
+    margin-bottom: 20px;
+  }
+  .footer-cards-location {
+    width: 90%;
+  }
+  .social img {
+    width: 30px;
+    height: 30px;
+  }
+}
